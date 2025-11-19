@@ -1,0 +1,83 @@
+.layer-palette {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  height: fit-content;
+}
+
+.layer-palette h2 {
+  margin: 0 0 10px 0;
+  color: #2d3748;
+  font-size: 1.5em;
+}
+
+.palette-description {
+  color: #718096;
+  margin-bottom: 20px;
+  font-size: 0.9em;
+}
+
+.layer-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.layer-button {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px;
+  background: white;
+  border: 2px solid #e2e8f0;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-size: 1em;
+}
+
+.layer-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.layer-icon {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.layer-name {
+  color: #2d3748;
+  font-weight: 600;
+}
+
+.palette-info {
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px solid #e2e8f0;
+}
+
+.palette-info h3 {
+  margin: 0 0 10px 0;
+  color: #2d3748;
+  font-size: 1.1em;
+}
+
+.palette-info ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.palette-info li {
+  padding: 6px 0;
+  color: #4a5568;
+  font-size: 0.85em;
+  line-height: 1.4;
+}
+
+.palette-info strong {
+  color: #2d3748;
+}

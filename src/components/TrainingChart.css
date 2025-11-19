@@ -1,0 +1,17 @@
+.training-chart {
+  margin-top: 15px;
+}
+
+.chart-container {
+  margin-bottom: 20px;
+}
+
+.chart-container h4 {
+  margin: 0 0 10px 0;
+  color: #2d3748;
+  font-size: 1em;
+}
+
+.chart-container:last-child {
+  margin-bottom: 0;
+}
